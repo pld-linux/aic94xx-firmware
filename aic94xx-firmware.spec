@@ -1,4 +1,5 @@
 Summary:	Firmware for the Adaptec AIC-94xx HBA
+Summary(pl.UTF-8):	Firmware dla kontrolerów Adaptec AIC-94xx
 Name:		aic94xx-firmware
 Version:	1.0.0
 Release:	0.V17_10C6
@@ -11,6 +12,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains the firmware for the aic94xx driver.
+
+%description -l pl.UTF-8
+Ten pakiet zawiera firmware dla sterownika aic94xx.
 
 %prep
 %setup -q -c -T
